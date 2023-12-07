@@ -1,23 +1,9 @@
 let jsonString = `{
-  "ret": 0,
-  "msg": "success",
-  "data": {
-    "gender": 0,
-    "uid": "84b9f9d66b3c4adea2cdd292d86251b2",
-    "country": null,
-    "id": "104643340",
-    "nickname": "apple登录用户",
-    "city": null,
-    "headImage": "/user_head_images/default.png",
-    "phoneNumber": null,
-    "platform": 2,
-    "userVipInfo" : {
-      "isValid" : true,
-      "originalTransactionId" : "510001408663730",
-      "vipExpireTime" : 1702511666000,
-      "level" : 1,
-      "productId" : "vip_monthly_trial",
-      "vipCountStartTime" : 1701302073000
+    "userVipInfo": {
+      "isValid": false,
+      "originalTransactionId": null,
+      "level": 0,
+      "productId": null
     },
     "province": null
   }
