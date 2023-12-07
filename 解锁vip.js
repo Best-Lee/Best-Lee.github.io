@@ -11,11 +11,13 @@ let jsonString = `{
     "headImage": "/user_head_images/default.png",
     "phoneNumber": null,
     "platform": 2,
-    "userVipInfo": {
-      "isValid": false,
-      "originalTransactionId": null,
-      "level": 0,
-      "productId": null
+    "userVipInfo" : {
+      "isValid" : true,
+      "originalTransactionId" : "510001408663730",
+      "vipExpireTime" : 1702511666000,
+      "level" : 1,
+      "productId" : "vip_monthly_trial",
+      "vipCountStartTime" : 1701302073000
     },
     "province": null
   }
@@ -29,7 +31,7 @@ jsonObj.data.userVipInfo.isValid = true;
 jsonObj.data.userVipInfo.originalTransactionId = "510001408663730";
 jsonObj.data.userVipInfo.vipExpireTime = 1732924473000;
 jsonObj.data.userVipInfo.level = 1;
-jsonObj.data.userVipInfo.productId = "vip_yearly_trial";
+jsonObj.data.userVipInfo.productId = "vip_monthly_trial";
 jsonObj.data.userVipInfo.vipCountStartTime = 1701302073000;
 
 // 将修改后的对象转换回字符串
