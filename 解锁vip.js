@@ -1,9 +1,11 @@
 let response = {
-    "userVipInfo": {
-        "isValid": false,
-        "originalTransactionId": null,
-        "level": 0,
-        "productId": null
+    "userVipInfo" : {
+      "isValid" : true,
+      "originalTransactionId" : "510001408663730",
+      "vipExpireTime" : 1702511666000,
+      "level" : 1,
+      "productId" : "vip_monthly_trial",
+      "vipCountStartTime" : 1701302073000
     }
 };
 
